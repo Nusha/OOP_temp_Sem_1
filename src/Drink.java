@@ -14,10 +14,13 @@ public class Drink extends Product {
         this.volume = volume;
     }
 
+
     @Override
     public String toString() {
         return "Drink{" +
-                "volume=" + volume +
+                "Name: " + getName() +
+                ", price: " + getPrice() +
+                " volume: " + volume +
                 '}';
     }
 }

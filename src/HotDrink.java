@@ -16,8 +16,11 @@ public class HotDrink extends Drink {
 
     @Override
     public String toString() {
-        return "HotDrink{" +
-                "temperature=" + temperature +
+        return "Drink{" +
+                "Name: " + getName() +
+                ", price: " + getPrice() +
+                ", volume: " + getVolume() +
+                ", temperature: " + temperature +
                 '}';
     }
 }
