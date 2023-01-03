@@ -16,7 +16,7 @@ public class HotDrink extends Drink {
 
     @Override
     public String toString() {
-        return "Drink{" +
+        return "HotDrink {" +
                 "Name: " + getName() +
                 ", price: " + getPrice() +
                 ", volume: " + getVolume() +
